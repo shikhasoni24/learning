@@ -1,0 +1,25 @@
+<sly data-sly-use.navigation="com.adobe.cq.wcm.core.components.models.Navigation"> </sly>
+<nav class="nav1">
+<ul>
+<sly data-sly-list.item="${navigation.items}">
+
+<li>
+   <a href="${item.url}">${item.title}></a>
+   <sly data-sly-test="${item.children}">
+   <ul>
+      <sly data-sly-list.children="${item.children}">
+         <li>
+            <a href="${children.URL}">${children.title}></a>
+            <sly data-sly-test="${children.children}">
+               <ul>
+                  <sly data-sly-list.abc="${children.children}">
+                     <li>
+                        <a href="${abc.URL}">${abc.title}></a>
+                     </li>
+                  </sly>
+               </ul>
+            </sly>
+         </li>
+      </sly>
+   </ul>
+   </nav>

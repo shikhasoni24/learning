@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastReplicated="{Date}2021-02-10T00:52:32.842+05:30"
+        cq:lastReplicatedBy="myUser"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/learning/settings/wcm/templates/content-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Français"
+        jcr:uuid="bfad4729-b2c2-4f61-a63f-4a48219ddc4f"
+        sling:resourceType="learning/components/structure/page"
+        pageTitle="Nouveau Project">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+        </root>
+        <image/>
+    </jcr:content>
+    <fr-1/>
+    <fr-2/>
+</jcr:root>

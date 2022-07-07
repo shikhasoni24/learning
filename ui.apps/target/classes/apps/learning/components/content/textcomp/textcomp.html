@@ -1,0 +1,37 @@
+its a text component.
+<sly data-sly-use.obj="com.learning.core.wcm.WCMUseAPIDemo"> </sly>
+
+value of text : : ${properties.text}
+value of text in upper case : : ${obj.currentNodeProperty}
+
+
+All the values of resource :: ${obj.currentResourceProperties}
+
+<sly data-sly-list.key="${obj.currentResourceProperties}"> 
+<br> key is :: ${key}
+<br> value is :: ${obj.currentResourceProperties[key]}
+</sly>
+
+
+<br> Other Component property :: ${obj.otherResourceProperty}
+
+<br> Current page Title  ::  ${obj.currentPageTitle}
+
+<br> Different Page Title :: ${obj.differentPageTitle}
+
+<br> Different Page Title :: ${obj.otherResourcePropertyJCR}
+
+
+
+
+<ul data-sly-list="${currentPage.parent.listChildren}">
+  <li> index: ${itemList.index}<dt> <dd> value: ${item.title}</li>
+ </ul>
+<br>
+<ul data-sly-repeat="${currentPage.parent.listChildren}">
+   <li> index: ${itemList.index}<dt> <dd> value: ${item.title}</li>
+ </ul>
+
+
+
+

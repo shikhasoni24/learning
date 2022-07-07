@@ -1,5 +1,6 @@
 com\learning\core\constants\ExceptionConstants.class
 com\learning\core\models\HelloWorldModel$TestModel.class
+com\learning\core\servlets\DynamicResourceTypeServlet.class
 com\learning\core\service\MyServiceConfiguration.class
 com\learning\core\schedulers\UnpublishConfig.class
 com\learning\core\schedulers\WorkflowStatusConfiguration.class
@@ -18,6 +19,7 @@ com\learning\beans\ChildPageDetails.class
 com\learning\core\serviceimpl\XpathQueryTestServiceImpl.class
 com\learning\core\serviceimpl\DamImageAssetInfoImpl.class
 com\learning\core\serviceimpl\PaginationSearchImp.class
+com\learning\core\servlets\DynamicResourceTypeServlet$Config.class
 com\learning\core\practice\OfficeDetail.class
 com\learning\core\models\MyModel.class
 com\learning\core\models\ThumbnailModel.class

@@ -2,11 +2,11 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>learning - UI content</comment>
-<entry key="createdBy">hp</entry>
+<entry key="createdBy">shikh</entry>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">learning.ui.content</entry>
 <entry key="acHandling">merge_preserve</entry>
-<entry key="created">2020-11-28T18:31:00.656+0530</entry>
+<entry key="created">2022-07-07T13:45:52.225+0530</entry>
 <entry key="groupId">learning</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="packageType">content</entry>

@@ -1,0 +1,35 @@
+<!--etouch multi component
+<h1> hi </h1>
+
+<sly data-sly-list="${resource.children}">
+    <sly data-sly-list="${item.children}">
+     ${item.title}
+     ${item.imagepath}
+	${item.description}
+</sly>
+ </sly>	
+ <style>
+h2 {
+    display: inline;
+}
+img{
+    float:left;
+}
+  
+</style>
+<h2>Current Issue</h2>
+<div
+    data-sly-use.multiItems="com.learning.core.models.AirtelMultiField">
+    <div data-sly-list.head="${multiItems.multifieldItemsName}">
+ 
+
+        <div style="height:250px;"><h2>${head.title}</h2><img src=${head.imagepath} height=200 width=270 style="padding:4px"/>
+                             <p>${head.description}</p>
+                                  
+                             </div>
+                             <hr>
+ 
+   </div>
+</div>
+
+-->

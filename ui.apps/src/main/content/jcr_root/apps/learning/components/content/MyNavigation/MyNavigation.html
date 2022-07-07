@@ -1,0 +1,8 @@
+hi
+
+<sly data-sly-use.obj="com.learning.core.models.FetchChildPageModel"/> 
+    <sly data-sly-list.iteratePageList="${obj.childPageDetails}">
+                   <h2> title is ${iteratePageList.title} </h2>
+                   <p> Description is ${iteratePageList.description} </p>
+
+   </sly>

@@ -1,0 +1,12 @@
+<h1> welcome to factory demo </h1>
+
+
+<sly data-sly-use.osgiconfig="com.learning.core.models.FactoryConfigurationDemoServiceModel"> </sly>
+<sly data-sly-list="${osgiconfig.allConfigsList}">
+
+<div> <p> configid : <b> ${item.configId} </b> </p> </div>
+<div> <p> serviceName :<b> ${item.serviceName} </b> </p> </div>
+
+<div> <p> serviceURL : ${item.serviceURL} </b> </p> </div>
+</sly> 
+

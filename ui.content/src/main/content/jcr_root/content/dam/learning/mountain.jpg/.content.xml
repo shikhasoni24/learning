@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3f76cf14-e0ae-4b3a-bbd0-ba1ee7850f6b">
+    <jcr:content
+        cq:name="mountain.jpg"
+        cq:parentPath="/content/dam/learning"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-06-14T22:50:56.735+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2020-12-25T13:00:21.295+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="872c6d1ac333b212624336a76031a94f58828372"
+            dam:size="{Long}8817"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2021-01-21T11:40:49.419+05:30"
+            dc:title="mountainimage"
+            jcr:lastModified="{Date}2021-01-21T11:57:20.798+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="mountainimage"
+            tiff:ImageLength="{Long}172"
+            tiff:ImageWidth="{Long}293">
+            <sampleNode
+                jcr:primaryType="nt:unstructured"
+                sampleProp="Sample Value"/>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+    <sampleNode
+        jcr:primaryType="nt:unstructured"
+        sampleProp="Sample Value"/>
+</jcr:root>
